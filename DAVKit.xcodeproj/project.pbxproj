@@ -92,6 +92,7 @@
 		5FEEF28216CE854C002C1CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF26216CE830C002C1CBF /* Foundation.framework */; };
 		5FEEF28416CE8598002C1CBF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF28316CE8596002C1CBF /* MobileCoreServices.framework */; };
 		5FEEF28616CE868B002C1CBF /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF28516CE868A002C1CBF /* CoreServices.framework */; };
+		A22BEE37181912E9003C2C3B /* NSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = F94970EC132A093600713958 /* NSDateRFC1123.m */; };
 		C9181BBC121DC31D0022E4AC /* DAVResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9181BBA121DC31D0022E4AC /* DAVResponseItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9181BBD121DC31D0022E4AC /* DAVResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9181BBB121DC31D0022E4AC /* DAVResponseItem.m */; };
 		C9A4E37E1406E12C004E4AEB /* DAVRequestGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A4E37C1406E12C004E4AEB /* DAVRequestGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -700,6 +701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22BEE37181912E9003C2C3B /* NSDateRFC1123.m in Sources */,
 				221F8B9A17259BFF004E7B9D /* BasicTests.m in Sources */,
 				221F8B9D17259BFF004E7B9D /* DAVTest.m in Sources */,
 				22AC1BAB17426F1C00AB09E1 /* KMSCloseCommand.m in Sources */,
