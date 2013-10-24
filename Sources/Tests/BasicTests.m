@@ -251,7 +251,7 @@
 
         STAssertNil(self.error, @"Unexpected error for PROPFIND %@", self.error);
         STAssertTrue([self.result isKindOfClass:[NSArray class]], @"Expecting a NSArray object for PROPFIND requests");
-        STAssertEquals([self.result count], 1UL, @"Unexpected result count %lu %@", [self.result count], self.result);
+        STAssertEquals([self.result count], 1u, @"Unexpected result count %lu %@", [self.result count], self.result);
 
         NSString* path1 = @"davkittest/filetest22.txt";
         NSString* path2 = @"davkittest/filetest23.txt";
@@ -267,7 +267,7 @@
 
         STAssertNil(self.error, @"Unexpected error for PROPFIND %@", self.error);
         STAssertTrue([self.result isKindOfClass:[NSArray class]], @"Expecting a NSArray object for PROPFIND requests");
-        STAssertEquals([self.result count], 4UL, @"Unexpected result count %lu %@", [self.result count], self.result);
+        STAssertEquals([self.result count], 4u, @"Unexpected result count %lu %@", [self.result count], self.result);
 
         NSUInteger n = 0;
         NSArray* names = @[@"davkittest/", path1, path2, path3];
